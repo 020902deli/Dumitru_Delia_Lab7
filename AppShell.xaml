@@ -6,9 +6,15 @@
     xmlns:local="clr-namespace:Dumitru_Delia_Lab7"
     Shell.FlyoutBehavior="Disabled">
 
-    <ShellContent
-        Title="Home"
-        ContentTemplate="{DataTemplate local:MainPage}"
-        Route="MainPage" />
+    <TabBar>
+        <ShellContent
+            Title="Shopping List"
+            ContentTemplate="{DataTemplate local:MainPage}"
+            />
+        <ShellContent 
+            Title="About"
+            ContentTemplate="{DataTemplate local:AboutPage}"
+            />
+    </TabBar>
 
 </Shell>
