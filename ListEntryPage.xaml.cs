@@ -1,6 +1,5 @@
-using Dumitru_Delia_Lab7.Models;
-
 namespace Dumitru_Delia_Lab7;
+using Dumitru_Delia_Lab7.Models;
 
 public partial class ListEntryPage : ContentPage
 {
